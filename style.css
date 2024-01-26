@@ -1,0 +1,163 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+.first-part {
+    display: flex;
+    width: 970px;
+    height: 350px;
+    background-color: darkolivegreen ;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.header {
+    /*height: 72px;*/
+   /* background: darkmagenta;*/
+    color: white;
+    top: 0;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 60px;
+    width: 970px;
+    /*align-items: center;*/
+    padding: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    justify-content: space-around;
+   /* gap:100px;*/
+    margin-top: 12px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+}
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .oneb {
+    display:flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    gap: 100px;
+  }
+
+.web-awe{
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    width: 300px;
+    height: 200px;
+    /*background-color: brown;*/
+}
+
+.web1 {
+    display: flex;
+    color: white;
+    font-size: 28px;
+    text-wrap: wrap;
+    font-weight: bold;
+}
+
+.web2 {
+    display: flex;
+    color: white;
+    font-size: 12px;
+    text-wrap: wrap;
+}
+
+.web3 {
+    display: flex;
+    margin-top: 12px;
+    width: 80px;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: skyblue;
+    color: white;
+}
+  .ImPlaceHolder {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    box-sizing: border-box;
+    text-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
+  }
+
+
+
+.second-part {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 970px;
+    height: 280px;
+    align-items: center;
+} 
+
+.twoa {
+    font-weight: bold;
+    margin: 25px;
+
+}
+
+.twob {
+    display: flex;
+    gap: 10px;
+}
+  
+.emptys {
+    display: flex;
+    border: 4px solid blue;
+    height: 60px;
+    width: 80px;
+
+}
+.texts {
+    text-wrap: wrap;
+
+}
+
+.footer {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    bottom: 0;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+ 
